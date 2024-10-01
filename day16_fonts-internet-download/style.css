@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+
+
+#movieName{
+    background-color: brown;
+    font-size: 100px;
+    text-align: center;
+    color:skyblue;
+}
+
+#movieposter{
+    width: 450px;  
+    padding-right: 20px;
+}
+
+#totalCon{
+    display: flex;
+}
+
+#englishDec{
+    font-size: 2rem;
+    font-family: "Jacquarda Bastarda 9", serif; 
+    width: 1500px;
+    
+}
+#telugu{
+    font-size: 2rem;
+    font-family: "Gurajada", sans-serif;
+    width: 1500px;
+}
+
+#arabic{
+    font-size: 2rem;
+    font-family: "Lateef", serif;
+    font-weight: 300;
+    width: 1500px;
+      
+}
+
+
+
+
+/* #DivPoster{
+    display: inline-block;
+} */
+
+#DivDec1{
+    display:inline-block;
+    width: 1200px;
+    height: 1000px;
+    text-align: justify;
+    /* overflow:auto; */
+}
+
+
+
+
+@font-face {
+    font-family:Dots;
+    src: url(./fonts/EduAUVICWANTDots-VariableFont_wght.ttf);
+}
+
+#ADEnglish{
+    font-size: 2rem;
+    font-family:Dots;
+}
+
+
+
+
+@font-face {
+    font-family:Nandakam;
+    src: url("./fonts/Nandakam\ Regular.otf");
+}
+
+#ADTelugu{
+    font-size: 2rem;
+    font-family:Nandakam;
+}
+
+@font-face {
+    font-family: Anbe;
+    src: url(./fonts/AnbeTamil\ Font.ttf);
+}
+
+#ADTamil{
+    font-size: 2rem;
+    font-family: Anbe;
+}
